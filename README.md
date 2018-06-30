@@ -63,7 +63,7 @@ Those can be found in the inbuilt extension manager.
 
     // Appereance
     "workbench.colorTheme": "Visual Studio Dark",
-    "workbench.iconTheme": "vs-nomo-dark",
+    "workbench.iconTheme": "vs-nomo-dark"
 }
 ```
 
