@@ -13,36 +13,45 @@ Coupled with the following packages it has excellent autocompletion, code-format
 Get and install composer as described [here](https://getcomposer.org/download/).<br>
 Install packages with `composer global require <package_name>`.
 
-* `phpstan/phpstan` - *PHP Static Analysis Tool*
-* `deployer/deployer` - *PHP Deployment Tool*
-* `squizlabs/php_codesniffer` - *PHP Coding Standard Analysis*
-* `friendsofphp/php-cs-fixer`- *PHP Coding Standard Fixer*
-* `escapestudios/symfony2-coding-standard` - *Symfony PHP Coding Standard*
-* `phpunit/phpunit` - *PHP Unit Testing Framework*
-
+- `phpstan/phpstan` - _PHP Static Analysis Tool_
+- `deployer/deployer` - _PHP Deployment Tool_
+- `squizlabs/php_codesniffer` - _PHP Coding Standard Analysis_
+- `friendsofphp/php-cs-fixer`- _PHP Coding Standard Fixer_
+- `escapestudios/symfony2-coding-standard` - _Symfony PHP Coding Standard_
+- `phpunit/phpunit` - _PHP Unit Testing Framework_
 
 ## Global **NPM** Packages
 
 Get and install NodeJS as described [here](https://nodejs.org/en/). Alternatively use YARN.<br>
 Install packages with `npm install -g <package_name>`.
 
-* `prettier` - *Opinionated Code Formatter*
-* `@prettier/plugin-php` (experimental) - *Prettier PHP Support*
+- `prettier` - _Opinionated Code Formatter_
+- `@prettier/plugin-php` (experimental) - _Prettier PHP Support_
 
 ## **VSCode** Extensions
 
 Those can be found in the inbuilt extension manager.
 
 ### PHP
-* `PHP IntelliSense` - *Advanced PHP Autocompletion, Go-To-Definition, ...*
-* `PHP Debug` - *Debug support for PHP with XDebug*
-* `phpcs` - *Use PHPCS Within Editor (eg. on-save)*
-* `php cs fixer` - *Use PHPCS Fixer Within Editor*
-* `PHP DocBlockr` - *Helps Writing PHPDoc*
-* `vscode-phpstan` - *Use PHPStan Within Editor*
+
+- `PHP Intelephense` - _PHP code intelligence for Visual Studio Code_
+- `PHP Getters & Setters` - _Create PHP getters and setters from class properties_
+- `PHP Debug` - _Debug support for PHP with XDebug_
+- `phpcs` - _Use PHPCS Within Editor (eg. on-save)_
+- `php cs fixer` - _Use PHPCS Fixer Within Editor_
+- `PHP DocBlockr` - _Helps Writing PHPDoc_
+- `vscode-phpstan` - _Use PHPStan Within Editor_
+- `Twig Language 2` - _Snippets, Syntax Highlighting, Hover, and Formatting for Twig_
 
 ### Appereance
-* `Nomo Dark Icon Theme` - *Icon Theme*
+
+- `Nomo Dark Icon Theme` - _Icon Theme_
+
+### Misc
+
+- `File Utils` - _A convenient way of creating, duplicating, moving, renaming and deleting files and directories_
+- `EditorConfig for VS Code` - _EditorConfig Support for Visual Studio Code_
+- `DotENV` - _Support for dotenv file syntax_
 
 ## **VSCode** Settings
 
@@ -62,8 +71,7 @@ Those can be found in the inbuilt extension manager.
     "files.insertFinalNewline": true,
 
     // Appereance
-    "workbench.colorTheme": "Visual Studio Dark",
+    "workbench.colorTheme": "Atom One Dark",
     "workbench.iconTheme": "vs-nomo-dark"
 }
 ```
-
