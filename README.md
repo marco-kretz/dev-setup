@@ -116,3 +116,7 @@ There are a variety of fonts which come down to personal preference. The ones I 
     }
 }
 ```
+
+## **Screenshot**
+
+![Screenshot](https://raw.githubusercontent.com/marco-kretz/dev-setup/master/screenshot.png)
