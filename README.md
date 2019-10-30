@@ -119,4 +119,4 @@ There are a variety of fonts which come down to personal preference. The ones I 
 
 ## **Screenshot**
 
-![Screenshot](https://raw.githubusercontent.com/marco-kretz/dev-setup/master/screenshot.png)
+![Screenshot](https://github.com/marco-kretz/dev-setup/blob/master/screenshot.png)
