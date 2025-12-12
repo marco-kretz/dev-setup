@@ -1,0 +1,153 @@
+{
+    // Cursor
+    "telemetry.feedback.enabled": false,
+    "cursor.composer.shouldChimeAfterChatFinishes": true,
+
+    // Editor
+    "editor.bracketPairColorization.enabled": true,
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+    "editor.cursorStyle": "line",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.fontFamily": "JetBrainsMono Nerd Font",
+    "editor.fontLigatures": true,
+    "editor.formatOnSave": true,
+    "editor.guides.bracketPairs": "active",
+    "editor.inlineSuggest.enabled": true,
+    "editor.linkedEditing": true,
+    "editor.autoClosingBrackets": "always",
+    "editor.minimap.enabled": false,
+    "editor.quickSuggestions": {
+        "comments": true
+    },
+    "editor.suggestSelection": "first",
+    "editor.unicodeHighlight.ambiguousCharacters": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll": "explicit",
+        "source.organizeImports": "explicit"
+    },
+    "editor.mouseWheelZoom": true,
+    "editor.hover.sticky": true,
+    "editor.accessibilitySupport": "off",
+    "editor.renderWhitespace": "boundary",
+    "editor.smoothScrolling": true,
+
+    // Workbench
+    "workbench.iconTheme": "Monokai Pro (Filter Ristretto) Icons",
+    "workbench.colorTheme": "Monokai Pro (Filter Ristretto)",
+    "workbench.editor.labelFormat": "short",
+    "workbench.tree.indent": 16,
+    "workbench.startupEditor": "none",
+    "workbench.colorCustomizations": {
+        "tree.indentGuidesStroke": "#ff0000"
+    },
+
+    // Explorer
+    "explorer.compactFolders": false,
+    "explorer.confirmDragAndDrop": false,
+
+    // Window
+    "window.titleBarStyle": "custom",
+    "window.dialogStyle": "custom",
+
+    // Files
+    "files.autoGuessEncoding": true,
+    "files.eol": "\n",
+    "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
+    "files.associations": {
+        "*.module": "php"
+    },
+
+    // Search
+    "search.useIgnoreFiles": true,
+    "search.exclude": {
+        "**/vendor": true
+    },
+
+    // Git
+    "git.autofetch": true,
+    "git.enableSmartCommit": true,
+    "git.autoStash": true,
+    "git.confirmSync": false,
+    "git.repositoryScanMaxDepth": 2,
+
+    // Terminal
+    "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font Mono",
+    "terminal.integrated.fontSize": 14,
+    "terminal.external.linuxExec": "/bin/zsh",
+
+    // Security
+    "security.workspace.trust.untrustedFiles": "open",
+
+    // Ext: Intelephense
+    "intelephense.format.enable": true,
+    "intelephense.files.maxSize": 6000000,
+    "intelephense.licenceKey": "XXX", // enter your own licence key
+
+    // Ext: Prettier
+    "prettier.requireConfig": false,
+    "prettier.semi": true,
+    "prettier.singleQuote": true,
+    "prettier.tabWidth": 4,
+    "prettier.useTabs": false,
+
+    // Ext: PHP CS Fixer
+    "php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar",
+    "php-cs-fixer.rules": "@PER-CS",
+    "php-cs-fixer.formatHtml": true,
+
+    // Ext: GitLense
+    "gitlens.ai.model": "vscode",
+    "gitlens.ai.vscode.model": "copilot:gpt-4.1",
+
+    // Lang: JS
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true,
+        "editor.tabSize": 2
+    },
+    // Lang: JSON
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true,
+        "editor.tabSize": 2
+    },
+    // Lang: PHP
+    "[php]": {
+        "editor.defaultFormatter": "junstyle.php-cs-fixer",
+        "editor.formatOnSave": true,
+        "editor.suggest.insertMode": "replace"
+    },
+    // Lang: HTML
+    "[html]": {
+        "editor.defaultFormatter": "mblode.twig-language-2",
+        "editor.formatOnSave": true
+    },
+    // Lang: TWIG
+    "[twig]": {
+        "editor.defaultFormatter": "mblode.twig-language-2",
+        "editor.formatOnSave": false
+    },
+    // Lang: CSS
+    "[css]": {
+        "editor.suggest.insertMode": "replace",
+        "editor.defaultFormatter": "vscode.css-language-features"
+    },
+    // Lang: SVG
+    "[svg]": {
+        "editor.defaultFormatter": "jock.svg"
+    },
+    "svg.preview.mode": "svg",
+    // Lang: Go
+    "[go]": {
+        "editor.defaultFormatter": "golang.go"
+    },
+
+    // Emmet
+    "emmet.includeLanguages": {
+        "twig": "html"
+    },
+    "emmet.triggerExpansionOnTab": true,
+    "emmet.excludeLanguages": ["markdown"]
+}
