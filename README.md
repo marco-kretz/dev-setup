@@ -1,6 +1,6 @@
 # Personal PHP Web-Development Setup
 
-These are my minimum requirements for an elegant and easy-to-use development environment with **VS Code**.
+These are my minimum requirements for an elegant and easy-to-use development environment.
 
 ## Machine
 
@@ -23,10 +23,10 @@ Throughout 2025, I experimented with various ways to integrate AI perfectly into
 -   Zed
 -   etc.
 
-I'm not 100% satisfied yet, but right now **Cursor** offers the best overall experience. You are somewhat locked into the editor, which I dislike, so I am still exploring alternatives. **Zed** is very promising—super fast and "zen"—but not quite ready for my daily needs. Maybe I can tweak it to perfection over the holidays. :)
+I'm not 100% satisfied yet, but right now **Cursor** offers the best overall experience. You are somewhat locked into the editor, which I dislike, so I am still exploring alternatives. **Zed** is very promising, super fast and "zen", but not quite ready for my daily needs. Maybe I can tweak it to perfection over the holidays. :)
 
 **CLI Agents vs. Integration**
-CLI agent tools are great but often lack tight editor integration. While plugins exist (e.g., for Claude and OpenCode) to show diffs, I found them unreliable—often breaking after terminal restarts. **Zed** has the best concept here with their _Agent Client Protocol_, where the chat lives in the sidebar as if native. It's a cool idea, but it wasn't reliable for me yet.
+CLI agent tools are great but often lack tight editor integration. While plugins exist (e.g., for Claude and OpenCode) to show diffs, I found them unreliable, often breaking after terminal restarts. **Zed** has the best concept here with their _Agent Client Protocol_, where the chat lives in the sidebar as if native. It's a cool idea, but it wasn't reliable for me yet.
 
 Full-blown IDEs like PHPStorm are not my cup of tea. I need my editor to be fast.
 
